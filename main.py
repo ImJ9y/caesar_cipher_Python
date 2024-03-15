@@ -21,11 +21,7 @@ def caesar(start_text, shift_amount, cipher_direction):
 
     print(f"Here's the {cipher_direction}d result: {end_text}")
 
-    #TODO-1: Import and print the logo from art.py when the program starts.
-
-
 from art import logo
-# import math
 print(logo)
 
 restart = "yes"
@@ -38,6 +34,3 @@ while restart == "yes":
     caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
 
     restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.")
-
-# if shift >= 26:
-#     shift = 26 - math.ceil(shift / 26)
